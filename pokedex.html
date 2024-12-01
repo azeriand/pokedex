@@ -8,6 +8,64 @@
 
 </head>
 <body>
+    <div class="centered">
+        <div class="width">
+            <div class="main pokedex">POKÉDEX</div>
+            <div class="flex">
+                <div class="main poketypes">
+                    <div>Types</div>
+                    <aside>
+                        <ul class="ul-types"> <!--Aquí está la lista de tipos ;)-->
+                            <li><button class="type" id="alltypes">All types</button></li>
+                            <li><button class="type selected steel">Steel</button></li>
+                            <li><button class="type water">Water</button></li>
+                            <li><button class="type bug">Bug</button></li>
+                            <li><button class="type dragon">Dragon</button></li>
+                            <li><button class="type electric">Electric</button></li>
+                            <li><button class="type ghost">Ghost</button></li>
+                            <li><button class="type fire">Fire</button></li>
+                            <li><button class="type fairy">Fairy</button></li>
+                            <li><button class="type ice">Ice</button></li>
+                            <li><button class="type fighting">Fighting</button></li>
+                            <li><button class="type normal">Normal</button></li>
+                            <li><button class="type grass">Grass</button></li>
+                            <li><button class="type psychic">Psychic</button></li>
+                            <li><button class="type rock">Rock</button></li>
+                            <li><button class="type dark">Dark</button></li>
+                            <li><button class="type ground">Ground</button></li>
+                            <li><button class="type poison">Poison</button></li>
+                            <li><button class="type flying">Flying</button></li>
+                        </ul>
+                    </aside>
+                </div> 
+                <div class="main pkmncontent">
+                    <div class="headerpkmn">
+                        <input id="search" type="search" placeholder="Search...">
+                        <span>1 Pokémon</span>
+                        <select id="gen" class="gens"><!--Aqui está la lista de generaciones ;)-->
+                            <option value="select-all">All gens</option>
+                            <option value="1">Gen 1</option>
+                            <option value="2">Gen 2</option>
+                            <option value="3">Gen 3</option>
+                            <option value="4">Gen 4</option>
+                            <option value="5">Gen 5</option>
+                            <option value="6">Gen 6</option>
+                            <option value="7">Gen 7</option>
+                            <option value="8">Gen 8</option>
+                            <option value="9">Gen 9</option>
+                        </select>
+                    </div>
+                    <div id="pokedex" class="back">
+                        <!-- <div class="card">
+                            <div class="pokedex_number"></div>
+                            <img src="">
+                            <div></div>
+                        </div> -->
+                    </div>
+                </div>   
+            </div> <!--div class flex-->
+        </div> <!--div class width-->
+    </div> <!-- div class centered-->
 </body>
 <script src="pokemon.js"></script>
 <script src="getPokemon.js"></script>
